@@ -1,0 +1,12 @@
+{
+  "name": "Github PRs",
+  "version": "1.0.0",
+  "description": "A list of PRs that need reviewing",
+  "manifest_version": 3,
+  "author": "Natalie Carey",
+  "action":{
+    "default_popup": "index.html",
+    "default_title": "Github PRs"
+  },
+  "host_permissions": ["https://github.com/*"]
+}
